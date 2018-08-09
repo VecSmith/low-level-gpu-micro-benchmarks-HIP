@@ -1,0 +1,13 @@
+Navid Saremi
+
+Utrecht University 2018
+
+Low Level GPU Characteristics.
+
+In order to compile you need the HIP compiler and based on your device CUDA or HCC.
+
+Please refer to https://github.com/ROCm-Developer-Tools/HIP/blob/master/INSTALL.md for installing the required tools for your system.
+
+After installing the tools go to DeviceMicroBenchmarks directory and run make.
+
+You can edit the main function in device_micro_benchmarks.cpp in order to select which benchmarks you desire. 
